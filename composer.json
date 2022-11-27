@@ -1,0 +1,20 @@
+{
+    "name": "kekalainen/slim-illuminate-autowire",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kekalainen",
+            "email": "git@kekalainen.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kekalainen\\SlimIlluminateAutowire\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/container": ">=4.0",
+        "slim/slim": ">=4.0"
+    }
+}
